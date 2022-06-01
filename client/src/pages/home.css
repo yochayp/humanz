@@ -1,0 +1,42 @@
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+.pagination-buttons{
+    margin-top: 1rem;
+}
+
+.next-button{
+    border-bottom-right-radius:20px;
+    border-top-right-radius:20px;
+    margin-left: 0.2rem;
+    border: 0;
+    background-color: #099ac0;
+    color: white;
+    padding: 0.6rem;
+padding-left: 2rem;
+padding-right: 2rem;
+}
+.previous-button{
+    border-bottom-left-radius:20px;
+    border-top-left-radius:20px;
+    margin-right: 0.2rem;
+    border: 0;
+    background-color: #099AC0;
+    color: white;
+    padding: 0.6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.hover-color:hover{
+background-color: #8B5FBB;
+}
+
+.disable-button{
+    background-color: rgba(49, 49, 49, 0.614) !important;
+}
+.container{
+    height: 93%;
+  }

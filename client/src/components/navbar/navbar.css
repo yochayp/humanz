@@ -1,0 +1,24 @@
+h1{
+    /* background-color: aquamarine; */
+}
+.header-right{
+    display: flex;
+}
+/* .dates-range{
+    display: flex;
+} */
+
+.create-button {
+    border-bottom-right-radius:20px;
+    border-top-right-radius:20px;
+    background: #099AC0;
+    color: #fff;
+  }
+.search-input{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    border: 1px solid;
+    border-bottom-left-radius:20px;
+    border-top-left-radius:20px;
+}

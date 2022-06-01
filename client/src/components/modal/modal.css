@@ -1,0 +1,76 @@
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: .5;
+  }
+  
+  
+  .modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+  
+    outline: 0;
+  }
+  
+  .modal {
+    display: block;
+    z-index: 100;
+    background: white;
+    position: relative;
+    margin: 1.75rem auto;
+    border-radius: 3px;
+    max-width: 500px;
+    padding: 2rem;
+  }
+  
+  .modal-header {
+  padding: 0%;
+  }
+  
+  .modal-close-button {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    opacity: .3;
+    cursor: pointer;
+    border: none;
+  }
+
+  .submit-button{
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:20px;
+    background: #099AC0;
+    color: #fff;
+  }
+
+  .spinner{
+
+border-radius: 50%;    /* position: absolute; */
+} 
+.hummanz-spinner{
+    animation: rotation 1.8s linear infinite ;
+
+    width: 4rem;
+    height: auto;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+  
